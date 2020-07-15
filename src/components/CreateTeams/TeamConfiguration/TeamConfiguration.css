@@ -1,0 +1,16 @@
+.team-configuration__wrapper{
+    width: 100%;
+    padding: 4px;
+    margin: 0 auto!important;
+}
+
+.team-configuration__wrapper--title{
+    color:#5E3890
+}
+
+@media (min-width: 768px){
+    .configure-squad__wrapper{
+        margin: 0 auto;
+        width: 60%;
+    }
+}

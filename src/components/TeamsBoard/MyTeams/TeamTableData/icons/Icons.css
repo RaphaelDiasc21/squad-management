@@ -1,0 +1,13 @@
+.icons__wrapper{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons__icon--div{
+    cursor: pointer;
+}
+
+.tip + .tooltip > .tooltip-inner{
+    background-color: black;
+}

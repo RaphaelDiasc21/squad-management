@@ -1,0 +1,31 @@
+
+.myteams__header--title{
+    color: #552C8A;
+    font-weight: 700;
+}
+.myteams__header--icon svg{
+    font-size: 40px;
+    background-origin: padding-box;
+    cursor: pointer;
+}
+
+.myteams__header--icon svg path{
+    color:#8F357F;
+}
+.myteams__table--head{
+    margin-left: 5px;
+}
+
+.myteams__table--head-name{
+    border: none;
+    border-right: 1px solid lightgray!important;
+}
+.myteams__table--head-desc{
+    border: none;
+}
+.table td,th{
+    border:none;
+    border-bottom: 1px solid lightgray;
+    font-weight: 700;
+    font-size: .8em;
+}

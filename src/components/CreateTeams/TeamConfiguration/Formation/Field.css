@@ -1,0 +1,12 @@
+.field{
+    background: rgb(36,0,25);
+    background: linear-gradient(180deg, rgba(36,0,25,1) 0%, rgba(218,69,167,1) 35%, rgba(162,0,255,1) 100%);;
+}
+
+.field .field__area{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 15px;
+}

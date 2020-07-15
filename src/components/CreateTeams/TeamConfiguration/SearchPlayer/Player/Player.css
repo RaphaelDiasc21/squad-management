@@ -1,0 +1,13 @@
+.player__card{
+    border:1px dashed #E7E7E7;
+    padding: 15px!important;
+    background:linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(207,207,207,1) 61%, rgba(212,212,212,1) 100%);
+}
+
+.player__card .player__card--info-label{
+    font-weight: 700;
+}
+
+.player__card .player__card--info{
+    color: #D86489;
+}

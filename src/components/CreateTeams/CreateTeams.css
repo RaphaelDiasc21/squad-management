@@ -1,0 +1,17 @@
+.createTeams__wrapper{
+    width: 100%;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.createTeams__wrapper--title{
+    color:#5E3890
+}
+
+@media (min-width:768px){
+    .createTeams__wrapper{
+        width: 90%;
+        margin: 0 auto;
+        padding: 15px;
+    }
+}

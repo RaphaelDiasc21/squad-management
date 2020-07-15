@@ -1,0 +1,92 @@
+.create-team{
+    padding: 15px;
+}
+
+.create-team .create-team__title{
+    color:#A7A7A7;
+    text-align: center;
+}
+
+.create-team__form--input-div,.create-team__form---input-div-layout{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.create-team__form--input-div input,textarea{
+    border:1px solid rgba(207, 197, 197, 0.89);
+    border-radius: 3px;
+}
+
+.save-team__button--div{
+    width: 100%;
+    color: white!important;
+    font-weight: 700!important;
+    background-color: #D33F6E!important;
+}
+
+input,textarea{
+    margin-top:5px;
+    padding:5px
+}
+.create-team__form--error-highlights label{
+    color: #D33F6E;
+}
+
+.create-team__form--error-highlights > input,
+.create-team__form--error-highlights > div,
+.create-team__form--error-highlights textarea{
+    border:1px solid #D33F6E;
+}
+
+.create-team__form--tag-container{
+    width: 100%;
+    min-height: 70px;
+    max-height: auto;
+    border:1px solid rgba(207, 197, 197, 0.89);
+    border-radius: 5px;
+}
+
+.create-team__form--tag-container input{
+    border:none;
+}
+
+.create-team__form--input-div label{
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: .8em;
+}
+
+.create-team__form--input-div .create-team__form--input-div-together{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width:900px){
+    .create-team__form-wrapper{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .create-team__form--input-div{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .create-team__form--input-div input[type=text],textarea{
+        display: block;
+        width: 100%;
+    }
+
+    .create-team__form--input-div .create-team__form---input-div-layout, .create-team__form--input-div-together{
+        width: 50%;
+        margin-top:20px;
+    }
+
+    .create-team__form--input-radio input{
+        display: inline;
+    }
+
+    .save-team__button--div{
+        width: 60%;
+    }
+}
