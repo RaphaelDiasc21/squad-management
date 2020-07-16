@@ -114,23 +114,28 @@ const CreateTeamsForm = (props) =>{
         let descriptionInputError = false;
         let typeInputError = false;
         let tagsInputError = false;
-
+        let result = true;
+        console.log(teamData.website);
+        console.log(teamData.website.indexOf("@"))
         if(teamData.name == ""){          
             nameInputError = true;
+            result = false;
         }
-        if(teamData.website === ""){
+        if(teamData.website === "" || teamData.website.indexOf("@") == -1){
             websiteInputError = true;
+            result = false;
         }
         if(teamData.description === ""){
             descriptionInputError = true;
+            result = false;
         }
         if(teamData.type === ""){
             typeInputError = true;
+            result = false;
         }
         if(tags.length == 0){
             tagsInputError = true;
-        }else{
-            return true;
+            result = false;
         }
         setValidation({
             nameInputError:nameInputError,
@@ -139,7 +144,7 @@ const CreateTeamsForm = (props) =>{
             typeInputError:typeInputError,
             tagsInputError:tagsInputError
         })
-        return false;
+        return result;
     }
 
     const saveTeam = (event) =>{

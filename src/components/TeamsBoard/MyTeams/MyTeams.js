@@ -15,12 +15,12 @@ const MyTeams = (props) =>{
     const sortBy = (sortBy) =>{
         if(sortBy == "name"){
             return teams.sort(
-                (a,b) =>{
-                    if(a.name > b.name){
+                (teamA,teamB) =>{
+                    if(teamA.name > teamB.name){
                         return 1;
                     }
     
-                    if(a.name < b.name){
+                    if(teamA.name < teamB.name){
                         return -1;
                     }
     
@@ -30,12 +30,12 @@ const MyTeams = (props) =>{
         }
 
             return teams.sort(
-                (a,b) =>{
-                    if(a.description > b.description){
+                (teamA,teamB) =>{
+                    if(teamA.description > teamB.description){
                         return 1;
                     }
     
-                    if(a.description < b.description){
+                    if(teamA.description < teamB.description){
                         return -1;
                     }
     

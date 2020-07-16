@@ -14,7 +14,6 @@ const TeamsBoard = () =>{
     const getTeams = () =>{
       setTeam([...Store.getState().teams])
       teamsData = teams;
-      console.log(teamsData);
     }
 
     const deleteTeam = (event) =>{
@@ -51,15 +50,11 @@ const TeamsBoard = () =>{
         })
     }
 
-    const teste = () =>{
-      console.log(teamsData);
-    }
     return(
         <div>
             <div className="teamboard__wrapper">
               <div className="row w-100 m-0">
                 <div className="col-sm-12 col-md-6 mt-4">
-                  {teste()}
                   <MyTeams 
                   teams={teamsData} 
                   deleteTeam={deleteTeam}

@@ -14,6 +14,7 @@
 }
 .myteams__table--head{
     margin-left: 5px;
+    cursor: pointer;
 }
 
 .myteams__table--head-name{

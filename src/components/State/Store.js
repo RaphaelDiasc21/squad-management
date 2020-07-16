@@ -6,7 +6,9 @@ const reducer = (state,action) =>{
             state.teams.push(action.payload);
             break;
         case "DELETE_TEAM":
-            state.teams.splice(action.payload);
+            console.log(state.teams);
+            state.teams.splice(action.payload,1);
+            state.teams = state.teams;
             break;
         case "EDIT_TEAM":
             state.teams[action.payload.teamIndex] = action.payload.teamData;

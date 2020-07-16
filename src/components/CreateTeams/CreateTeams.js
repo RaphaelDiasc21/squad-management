@@ -33,13 +33,13 @@ const CreateTeams = () =>{
             team.id = Store.getState().teams.length;
             team.formation = {formation:"3-4-3"};
             setTeam({...team});
-            console.log(team);
             Store.dispatch({
                 type:purpose,
                 payload:team
             });
+
+            history.push("/")
         }else{
-            console.log(team);
             Store.dispatch({
                 type:purpose,
                 payload:{
@@ -47,6 +47,8 @@ const CreateTeams = () =>{
                 teamIndex:teamIndex
               }
             });
+
+            history.push("/")
         }    
     }
 

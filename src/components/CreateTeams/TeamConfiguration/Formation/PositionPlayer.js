@@ -3,6 +3,7 @@ import './PositionPlayer.css';
 
 const PositionPlayer = (props) =>{
     const dropando = (event) =>{
+        //Start the drag n drop functionality
         console.log(event)
         console.log(event.dataTransfer.getData("player_id"));
         console.log(event.dataTransfer.getData("player_name"));

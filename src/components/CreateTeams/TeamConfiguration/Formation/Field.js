@@ -16,7 +16,6 @@ const Field = (props) =>{
           })
     }
     useEffect(()=>{
-         console.log(props.formation);
          setFormation({...props.formation})
     },[props.formation])
 

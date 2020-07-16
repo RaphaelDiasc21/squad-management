@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import TopTeam from './TopTeam/TopTeam';
 import './TopTeams.css';
+import store from '../../State/Store';
 
 const TopTeams = () =>{
+    let[teams,setTeams] = useState([]);
+    useEffect(()=>{
+        let teams = store.getState().teams;
+        setTeams([...teams])
+    },[store.getState().teams]);
+
+    const renderTeams = () =>{
+        return teams.map((team) =>{
+           return <TopTeam name={team.name} avg="21.1"/>
+        })
+    }
     return(
         <div className="topteams">
             <div className="teamsboard__wrapper">
@@ -12,17 +24,15 @@ const TopTeams = () =>{
                 <div>
                     <div className="row">
                         <div className="col-sm-12 col-md-6">
-                            <p>Highest avg age</p>
+                            <p style={{fontWeight:"700"}}>Highest avg age</p>
                             <div className="topteams__infos">
-                                <TopTeam name="Raphael Dias" avg="21.1"/>
-                                <TopTeam name="Raphael Costa" avg="21.1"/>
+                                {renderTeams()}
                             </div>
                         </div>
                         <div className="col-sm-12 col-md-6">
-                            <p>Lowest avg age</p>
+                            <p style={{fontWeight:"700"}}>Lowest avg age</p>
                             <div className="topteams__infos">
-                                <TopTeam name="Raphael Dias" avg="21.1"/>
-                                <TopTeam name="Raphael Costa" avg="21.1"/>
+                                {renderTeams()}
                             </div>
                         </div>
                     </div>

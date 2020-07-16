@@ -9,7 +9,6 @@ const Formation = (props) =>{
     let[formationPlainText,setFormationPlainText] = useState({formation:""});
 
     useEffect(()=>{
-      console.log(props.formation)
       updateFormation(props.formation.formation)
     },[props.formation]);
 
