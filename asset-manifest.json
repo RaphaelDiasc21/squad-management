@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/squad-management/static/css/main.213aee66.chunk.css",
+    "main.js": "/squad-management/static/js/main.3315533b.chunk.js",
+    "main.js.map": "/squad-management/static/js/main.3315533b.chunk.js.map",
+    "runtime-main.js": "/squad-management/static/js/runtime-main.15b80fce.js",
+    "runtime-main.js.map": "/squad-management/static/js/runtime-main.15b80fce.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/squad-management/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.3ad3d1d4.chunk.js": "/squad-management/static/js/2.3ad3d1d4.chunk.js",
+    "static/js/2.3ad3d1d4.chunk.js.map": "/squad-management/static/js/2.3ad3d1d4.chunk.js.map",
+    "index.html": "/squad-management/index.html",
+    "precache-manifest.5b26a4af255f06a7a7a7f77abecc7860.js": "/squad-management/precache-manifest.5b26a4af255f06a7a7a7f77abecc7860.js",
+    "service-worker.js": "/squad-management/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/squad-management/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.213aee66.chunk.css.map": "/squad-management/static/css/main.213aee66.chunk.css.map",
+    "static/js/2.3ad3d1d4.chunk.js.LICENSE.txt": "/squad-management/static/js/2.3ad3d1d4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.15b80fce.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.3ad3d1d4.chunk.js",
+    "static/css/main.213aee66.chunk.css",
+    "static/js/main.3315533b.chunk.js"
+  ]
+}
