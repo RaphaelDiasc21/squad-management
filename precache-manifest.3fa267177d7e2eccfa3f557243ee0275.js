@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f8c91b5a9624b7948a2fc736a6d33a6f",
+    "revision": "b9f7523b1e932225969994918efa3907",
     "url": "/squad-management/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/squad-management/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "d42ca2190f1ae5f73580",
+    "revision": "e67d022d5fe27d01b835",
     "url": "/squad-management/static/css/main.213aee66.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/squad-management/static/js/2.3ad3d1d4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d42ca2190f1ae5f73580",
-    "url": "/squad-management/static/js/main.3315533b.chunk.js"
+    "revision": "e67d022d5fe27d01b835",
+    "url": "/squad-management/static/js/main.b06938ee.chunk.js"
   },
   {
     "revision": "1df83539aa3aa6949025",
